@@ -6,7 +6,7 @@
 - [【0004】CI环境搭建——GitLab](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-gitlab-at-centos.md)
 - [【0005】CI环境搭建——Jenkins](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-jenkins-at-centos.md)
 - 【0006】CI环境搭建——Nexus
-- 【0007】CI环境搭建——LDAP
+- [【0007】CI环境搭建——LDAP](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-ldap-at-centos.md)
 - 【0008】CI环境搭建——JIRA
 - 【0009】CI环境搭建——GitLab、Jenkins、Nexus、JIRA等配置LDAP认证登录
 - 【0010】MQTT协议简单学习
