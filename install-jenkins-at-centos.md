@@ -1,6 +1,6 @@
 # CI环境搭建——Jenkins #
 
-[上一篇（CI环境搭建——GitLab）](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/0003-install-gitlab-at-centos.md)我们搭建了GitLab。现在，我们来搭建Jenkins。
+[上一篇（CI环境搭建——GitLab）](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-gitlab-at-centos.md)我们搭建了GitLab。现在，我们来搭建Jenkins。
 
 ## Jenkins搭建 ##
 
