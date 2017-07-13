@@ -8,7 +8,7 @@
 - [【0006】CI环境搭建——Nexus](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-nexus-at-centos.md)
 - [【0007】CI环境搭建——LDAP](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-ldap-at-centos.md)
 - 【0008】CI环境搭建——JIRA
-- 【0009】CI环境搭建——GitLab、Jenkins、Nexus、JIRA等配置LDAP认证登录
+- [【0009】CI环境搭建——GitLab、Jenkins、Nexus、JIRA等配置LDAP认证登录](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/ci-auth-by-ldap.md)
 - 【0010】MQTT协议简单学习
 - 【0011】Mosquitto在CentOS上的安装与配置
 - 【0012】Spring Boot对MQTT的支持
