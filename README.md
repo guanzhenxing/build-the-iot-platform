@@ -19,4 +19,4 @@
 - 【0017】服务注册与服务发现
 - 【0018】客户端负载均衡
 - 【0019】API网关服务
-- 【0020】配置中心
+- [【0020】配置中心](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/spring-cloud-config.md)

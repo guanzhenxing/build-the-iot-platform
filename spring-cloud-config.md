@@ -91,13 +91,87 @@ application.yml配置文件
 在上面的配置中，我们主要做了以下几件事：
 
 - 配置Git信息
-- 
+- 配置rabbitmq信息，并开启cloud bus跟踪
+- 配置security认证
+- 将配置中心注册到服务治理中
 
+### 客户端代码 ###
 
-http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html
-http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html
-http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html
-http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html
-http://jm.taobao.org/2016/09/28/an-article-about-config-center/
-http://calvin1978.blogcn.com/articles/serviceconfig.html
-https://springcloud.cc/spring-cloud-dalston.html#_spring_cloud_config
+添加依赖（pom.xml）
+
+    <dependencies>
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.cloud</groupId>
+          <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+      </dependencies>
+
+application.yml配置文件
+
+  spring:
+    application:
+      name: service-user        # 对应config server所获取的配置文件的{application}
+    cloud:
+      config:                   # 配置中心的相关配置
+        username: dynamax       # 用户名
+        password: dynamax       # 密码
+        profile: dev            # profile对应config server所获取的配置文件中的{profile}
+        label: master           # 指定Git仓库的分支，对应config server所获取的配置文件的{label}
+        discovery:
+          enabled: true         # 表示使用服务发现组件中的Config Server，而不自己指定Config Server的uri，默认false
+          service-id: config-server-center # 指定Config Server在服务发现中的serviceId，默认是configserver
+      bus:
+        trace:
+          enabled: true
+    rabbitmq:                   # 配置rabbitmq
+      host: 192.168.118.131
+      port: 5672
+      username: guest
+      password: guest
+  eureka:                       # 配置注册服务中心
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:1001/eureka/
+
+以上配置中，我们完成了以下的一些事情：
+
+- 配置了配置中心的相关信息
+- 配置rabbitmq信息，并开启cloud bus跟踪
+- 从服务注册中心中获得相关服务
+
+## 配置中心的架构图 ##
+
+<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/springcloudconfigbus.jpg"/>
+
+## 关于高可用 ##
+
+集群是高可用系统的一种手段。构建高可用的配置中心，包括Config Server的高可用、Git的高可用和RabbitMQ的高可用。
+
+### Git仓库的高可用 ###
+
+- 使用第三方库，如GitHub、git@oschina等；
+- 自建GitLab仓库，并参考[GitLab仓库的高可用文档](https://about.gitlab.com/high-availability/)；
+
+### RabbitMQ的高可用 ###
+
+RabbitMQ的高可用可以参考[RabbitMQ的高可用文档](https://www.rabbitmq.com/ha.html)
+
+### Config Server自身的高可用 ###
+
+原理是使用负载均衡器，实现方式可以是把多个Config Server节点注册到Eureka Server上，然后在客户端使用Eureka Client即可。
