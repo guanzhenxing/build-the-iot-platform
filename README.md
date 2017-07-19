@@ -10,9 +10,11 @@
 - 【0008】CI环境搭建——JIRA
 - [【0009】CI环境搭建——GitLab、Jenkins、Nexus、JIRA等配置LDAP认证登录](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/ci-auth-by-ldap.md)
 - [【0010】MQTT协议简单学习](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/learn-mqtt.md)
-- 【0011】Mosquitto在CentOS上的安装与配置
+- [【0011】Mosquitto在CentOS上的安装与配置](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-mosquitto-centos.md)
 - 【0012】Spring Boot对MQTT的支持
 - 【0013】IOT平台架构以及技术选型
 - 【0014】不得不说的微服务
 - 【0015】Spring Boot与Spring Cloud
-- 【0016】服务注册与发现
+- 【0016】服务治理
+- 【0017】客户端负载均衡
+- 【0018】API网关服务
