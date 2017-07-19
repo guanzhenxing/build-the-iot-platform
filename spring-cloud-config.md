@@ -92,3 +92,12 @@ application.yml配置文件
 
 - 配置Git信息
 - 
+
+
+http://www.ityouknow.com/springcloud/2017/05/22/springcloud-config-git.html
+http://www.ityouknow.com/springcloud/2017/05/23/springcloud-config-svn-refresh.html
+http://www.ityouknow.com/springcloud/2017/05/25/springcloud-config-eureka.html
+http://www.ityouknow.com/springcloud/2017/05/26/springcloud-config-eureka-bus.html
+http://jm.taobao.org/2016/09/28/an-article-about-config-center/
+http://calvin1978.blogcn.com/articles/serviceconfig.html
+https://springcloud.cc/spring-cloud-dalston.html#_spring_cloud_config
