@@ -12,7 +12,7 @@
 - [【0010】MQTT协议简单学习](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/learn-mqtt.md)
 - [【0011】Mosquitto在CentOS上的安装与配置](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-mosquitto-centos.md)
 - 【0012】MQTT中Topic的定义与实践
-- 【0014】Spring Boot对MQTT的支持
+- [【0014】Spring Boot对MQTT的支持](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/spring-boot-mqtt.md)
 - [【0014】IOT平台架构以及技术选型](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/iot-architecture-and-technology-selection.md)
 - [【0015】不得不说的微服务](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/microservice-introduce.md)
 - 【0016】Spring Boot与Spring Cloud
