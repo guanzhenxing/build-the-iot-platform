@@ -2,7 +2,7 @@
 
 - [【0001】安装最Mini的CentOS以后需要做的事情](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/things-to-do-after-minimal-rhel-centos-installation.md)
 - [【0002】在CentOS上安装JDK](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-jdk-at-centos.md)
-- 【0003】什么是CI（持续集成）
+- [【0003】如何理解持续集成、持续交付、持续部署](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/know-ci-cd.md)
 - [【0004】CI环境搭建——GitLab](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-gitlab-at-centos.md)
 - [【0005】CI环境搭建——Jenkins](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-jenkins-at-centos.md)
 - [【0006】CI环境搭建——Nexus](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-nexus-at-centos.md)
