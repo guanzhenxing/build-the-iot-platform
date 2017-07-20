@@ -124,30 +124,30 @@ application.yml配置文件
 
 application.yml配置文件
 
-  spring:
-    application:
-      name: service-user        # 对应config server所获取的配置文件的{application}
-    cloud:
-      config:                   # 配置中心的相关配置
-        username: dynamax       # 用户名
-        password: dynamax       # 密码
-        profile: dev            # profile对应config server所获取的配置文件中的{profile}
-        label: master           # 指定Git仓库的分支，对应config server所获取的配置文件的{label}
-        discovery:
-          enabled: true         # 表示使用服务发现组件中的Config Server，而不自己指定Config Server的uri，默认false
-          service-id: config-server-center # 指定Config Server在服务发现中的serviceId，默认是configserver
-      bus:
-        trace:
-          enabled: true
+    spring:
+      application:
+        name: service-user        # 对应config server所获取的配置文件的{application}
+        cloud:
+          config:                   # 配置中心的相关配置
+            username: dynamax       # 用户名
+            password: dynamax       # 密码
+            profile: dev            # profile对应config server所获取的配置文件中的{profile}
+            label: master           # 指定Git仓库的分支，对应config server所获取的配置文件的{label}
+            discovery:
+              enabled: true         # 表示使用服务发现组件中的Config Server，而不自己指定Config Server的uri，默认false
+              service-id: config-server-center # 指定Config Server在服务发现中的serviceId，默认是configserver
+        bus:
+          trace:
+            enabled: true
     rabbitmq:                   # 配置rabbitmq
       host: 192.168.118.131
       port: 5672
       username: guest
       password: guest
-  eureka:                       # 配置注册服务中心
-    client:
-      serviceUrl:
-        defaultZone: http://localhost:1001/eureka/
+    eureka:                       # 配置注册服务中心
+      client:
+        serviceUrl:
+          defaultZone: http://localhost:1001/eureka/
 
 以上配置中，我们完成了以下的一些事情：
 
