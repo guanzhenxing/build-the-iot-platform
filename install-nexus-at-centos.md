@@ -36,7 +36,23 @@ Nexus现在为Nexus Repository Manager OSS 3.x。
 
 7）启动服务：在`/opt/nexus/bin`的目录下运行`./nexus run &`。这一步可以忽略，也就是这一步可以不做。
 
-8）注册为服务
+8）配置数据目录
+
+因为仓库占用存储较大，所以我们在安装的时候得注意存储目录的位置。参考官网上的说明（如下）进行修改：
+
+    2.10.4. Configuring the Data Directory
+
+    You can use $install-dir/bin/nexus.vmoptions to define a new location for data you want to preserve. In the configuration file change the values of -Dkaraf.data, -Djava.io.tmpdir, and -XX:LogFile to designate an absolute path you prefer to use.
+
+    The nexus service will look to add the data directory to the absolute path that you configure. For example, to use the absolute path /opt/sonatype-work/nexus3 change the values as follows:
+
+    -Dkaraf.data=/opt/sonatype-work/nexus3
+    -Djava.io.tmpdir=/opt/sonatype-work/nexus3/tmp
+    -XX:LogFile=/opt/sonatype-work/nexus3/log/jvm.log
+
+以上代码中的`/opt/sonatype-work/`可以替换成你的目录
+
+9）注册为服务
 
     vi /etc/systemd/system/nexus.service
 
@@ -56,17 +72,17 @@ Nexus现在为Nexus Repository Manager OSS 3.x。
     [Install]
     WantedBy=multi-user.target
 
-9）安装并启动服务
+10）安装并启动服务
 
     sudo systemctl daemon-reload
     sudo systemctl enable nexus.service
     sudo systemctl start nexus.service
 
-10）查看服务
+11）查看服务
 
     sudo systemctl status nexus.service
 
-11）添加防火墙规则
+12）添加防火墙规则
 
 ---
 参考：
