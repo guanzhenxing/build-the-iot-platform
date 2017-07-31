@@ -39,6 +39,8 @@ CI（持续集成）是现在开发必不可少的一门功课。接下来，我
 
 系统默认会用到8080端口作为启动时候的必须端口。如果不想用8080端口的话，可以通过这样的操作：在`/etc/gitlab/gitlab.rb`中修改`unicorn['port']=端口号`
 
+在`/etc/gitlab/gitlab.rb`中修改`git_data_dir "/program/gitlab-data"`，更改仓库存储位置
+
 运行`sudo gitlab-ctl reconfigure`
 
 ### 第5步：登录 ###
