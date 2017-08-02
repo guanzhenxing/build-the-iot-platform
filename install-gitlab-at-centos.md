@@ -35,7 +35,7 @@ CI（持续集成）是现在开发必不可少的一门功课。接下来，我
     nginx['listen_addresses'] = ["0.0.0.0", "[::]"] # listen on all IPv4 and IPv6 addresses
     nginx['listen_port'] = 8082
 
-修改地址：在文件`/etc/gitlab/gitlab.rb`中修改，`external_url '你想要的地址'`
+修改地址：在文件`/etc/gitlab/gitlab.rb`中修改，`external_url 'git.xxxx.io'`。这个地方是你项目的git的地址，最好更改下。
 
 系统默认会用到8080端口作为启动时候的必须端口。如果不想用8080端口的话，可以通过这样的操作：在`/etc/gitlab/gitlab.rb`中修改`unicorn['port']=端口号`
 
@@ -46,6 +46,32 @@ CI（持续集成）是现在开发必不可少的一门功课。接下来，我
 ### 第5步：登录 ###
 
 第一次登录GitLab的用户名密码为root和5iveL!fe。首次登录后会强制用户修改密码。
+
+### 使用Nginx做代理 ###
+
+这边的使用Nginx做代理，指的是在另一台机子上使用Nginx做一层代理（也可以在gitlab的Ng直接做代理）。
+
+    server {
+        listen       80 ;
+        server_name  git.xxxx.io git.xxxx.com;
+
+        location / {
+            proxy_pass http://xxx.xxx.xxx:8082;
+            proxy_redirect off;
+            proxy_set_header Host $host;
+            #proxy_set_header X-Real-Ip $remote_addr;
+            #proxy_set_header X-Forwarded-For $remote_addr;
+        }
+
+
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
 
 ### 常用命令 ###
 
