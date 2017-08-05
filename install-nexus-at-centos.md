@@ -84,9 +84,39 @@ Nexus现在为Nexus Repository Manager OSS 3.x。
 
 12）添加防火墙规则
 
+13）配置Nginx代理
+
+配置文件如下：
+
+    server {
+        listen       *:80;
+        server_name  maven.xxxx.io maven.xxxx.com;
+
+        client_max_body_size 1G;
+
+        location / {
+            proxy_pass http://xxx.xxx.xxx.xxx:8081/;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-Ip $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        }
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
+
+如上配置以后会有一个问题就是，有些图片和js不能被代理到。仔细[查看文档](https://books.sonatype.com/nexus-book/3.0/reference/install.html#reverse-proxy)，里面有提到[“Base URL Creation”](https://books.sonatype.com/nexus-book/3.0/reference/admin.html#admin-base-url)。所以猜想这边是不是要有个base url，参考文档中的配置以后，果然可以了。
+
 ---
 参考：
 
 http://qizhanming.com/blog/2017/05/16/install-sonatype-nexus-oss-33-on-centos-7
 
 http://blog.frognew.com/2017/05/install-sonatype-nexus.html
+
+https://segmentfault.com/a/1190000005966312#articleHeader7
+
+http://www.sonatype.org/nexus/2017/02/08/using-nexus-3-as-your-repository-part-1-maven-artifacts/
