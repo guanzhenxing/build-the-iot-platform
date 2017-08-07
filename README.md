@@ -19,3 +19,4 @@
 - 【0017】客户端负载均衡
 - 【0018】API网关服务
 - [【0019】配置中心](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/spring-cloud-config.md)
+- [【0020】RESTful API规范](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/restful-api-design.md)
