@@ -21,3 +21,4 @@
 - [【0019】配置中心](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/spring-cloud-config.md)
 - [【0020】RESTful API规范](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/restful-api-design.md)
 - [【0021】前端技术资源](https://github.com/dynamaxcn/build-the-iot-platform/blob/master/front-end-tech.md)
+- [【0022】开发工具](https://github.com/dynamaxcn/build-the-iot-platform/blob/master/dev-tools.md)
