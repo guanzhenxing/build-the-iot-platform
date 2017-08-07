@@ -1,22 +1,3 @@
 # 从0开始搭建IOT平台 #
 
-- [【0001】安装最Mini的CentOS以后需要做的事情](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/things-to-do-after-minimal-rhel-centos-installation.md)
-- [【0002】在CentOS上安装JDK](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-jdk-at-centos.md)
-- [【0003】如何理解持续集成、持续交付、持续部署](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/know-ci-cd.md)
-- [【0004】CI环境搭建——GitLab](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-gitlab-at-centos.md)
-- [【0005】CI环境搭建——Jenkins](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-jenkins-at-centos.md)
-- [【0006】CI环境搭建——Nexus](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-nexus-at-centos.md)
-- [【0007】CI环境搭建——LDAP](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-ldap-at-centos.md)
-- 【0008】CI环境搭建——JIRA
-- [【0009】CI环境搭建——GitLab、Jenkins、Nexus、JIRA等配置LDAP认证登录](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/ci-auth-by-ldap.md)
-- [【0010】MQTT协议简单学习](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/learn-mqtt.md)
-- [【0011】Mosquitto在CentOS上的安装与配置](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-mosquitto-centos.md)
-- 【0012】MQTT中Topic的定义与实践
-- [【0014】Spring Boot对MQTT的支持](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/spring-boot-mqtt.md)
-- [【0014】IOT平台架构以及技术选型](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/iot-architecture-and-technology-selection.md)
-- [【0015】不得不说的微服务](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/microservice-introduce.md)
-- [【0016】服务注册与服务发现](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/service-registry-and-service-find.md)
-- 【0017】客户端负载均衡
-- 【0018】API网关服务
-- [【0019】配置中心](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/spring-cloud-config.md)
-- [【0020】RESTful API规范](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/restful-api-design.md)
+将在 https://github.com/dynamaxcn/build-the-iot-platform.git 上进行维护
