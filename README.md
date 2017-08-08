@@ -1,3 +1,5 @@
+# 从0开始搭建IOT平台 #
+
 - [【0001】安装最Mini的CentOS以后需要做的事情](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/things-to-do-after-minimal-rhel-centos-installation.md)
 - [【0002】在CentOS上安装JDK](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/install-jdk-at-centos.md)
 - [【0003】如何理解持续集成、持续交付、持续部署](https://github.com/guanzhenxing/build-the-iot-platform/blob/master/know-ci-cd.md)
