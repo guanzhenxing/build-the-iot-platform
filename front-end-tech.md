@@ -1,6 +1,22 @@
 # 前端技术资源 #
 
-[JS前端开发群月报](https://www.kancloud.cn/jsfront/month/82796)
+邮件订阅:
+
+- [JS前端开发群月报](https://www.kancloud.cn/jsfront/month/82796)
+- [Frontend Focus](https://frontendfoc.us/)
+- [web-design-weekly](https://web-design-weekly.com/)
+- [CSS Weekly](http://css-weekly.com/)
+
+网站资料：
+
+- [css-tricks](https://css-tricks.com/)
+- [devdocs](http://devdocs.io/)
+
+微信公众号：
+
+- 前端外刊评论（FrontendMagazine）
+- 奇舞周刊
+- 前端之巅（frontshow）
 
 ## ReactJs & Redux ##
 
@@ -55,3 +71,13 @@
 - [《CSS权威指南（第三版）》](https://book.douban.com/subject/2308234/)
 - [《精通CSS（第2版）》](https://book.douban.com/subject/4736167/)
 - [《CSS揭秘》](http://www.ituring.com.cn/book/1695)
+
+## 其他 ##
+
+HTTP:
+
+- [图解HTTP](https://book.douban.com/subject/25863515/)
+
+正则表达式：
+
+-[30分钟入门正则表达式](http://deerchao.net/tutorials/regex/regex.htm)
