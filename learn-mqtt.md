@@ -19,7 +19,7 @@ MQTT（ Message Queuing Telemetry Transport）是一个物联网传输协议，�
 代理(Broker)。代理指的是MQTT服务器；
 订阅者(Subscribe)。一般指的是客户端，发布者同时也可以是订阅者；
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/mqtt-0.png"/>
+<img src="resources/mqtt-0.png"/>
 
 ### MQTT客户端 ###
 
@@ -41,13 +41,13 @@ MQTT服务端也称为消息代理，经常你会听到broker这个词。它可�
 
 ## MQTT协议流程 ##
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/mqtt-flow-diagram.png"/>
+<img src="resources/mqtt-flow-diagram.png"/>
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/mqtt-qs0-flow-diagram.png"/>
+<img src="resources/mqtt-qs0-flow-diagram.png"/>
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/mqtt-qs1-flow-diagram.png"/>
+<img src="resources/mqtt-qs1-flow-diagram.png"/>
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/mqtt-qs2-flow-diagram.png"/>
+<img src="resources/mqtt-qs2-flow-diagram.png"/>
 
 ## MQTT的服务端与客户端 ##
 
