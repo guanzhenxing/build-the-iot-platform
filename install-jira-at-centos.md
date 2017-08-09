@@ -4,3 +4,9 @@
 > - Author: Shunqin.
 
 ----
+
+## 安装
+### 下载压缩包
+- 官方下载地址：[https://www.atlassian.com/software/jira/download](https://www.atlassian.com/software/jira/download)
+- 选择`TAR.GZ Archive`并下载
+- 解压文件`tar -zxvf `
