@@ -10,7 +10,7 @@
 
 如下图配置LDAP：
 
-<img src="/master/resources/jenkins_ldap_conf.png"/>
+<img src="resources/jenkins_ldap_conf.png"/>
 
 配置详解：
 
