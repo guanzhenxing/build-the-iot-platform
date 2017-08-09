@@ -10,7 +10,7 @@
 
 如下图配置LDAP：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/jenkins_ldap_conf.png"/>
+<img src="resources/jenkins_ldap_conf.png"/>
 
 配置详解：
 
@@ -52,7 +52,7 @@
 
 在Jenkins中的配置如下：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/jenkins_ldap_auth.png"/>
+<img src="resources/jenkins_ldap_auth.png"/>
 
 <span style="color:red">注意：上图中红色框内的为选勾内容，蓝色框中的为必选内容。</span>
 
@@ -60,13 +60,13 @@
 
 使用admin登录系统。新建2个job（dev1_job和dev2_job）。
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/jenkins_ldap_jobs.png"/>
+<img src="resources/jenkins_ldap_jobs.png"/>
 
 如上图所示，点击“配置 ”按钮，对项目（任务）进行设置。
 
 如下图所示，dev1_job配置用户组为dev1，dev2_job配置用户组为dev2。
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/jenkins_ldap_job_auth.png"/>
+<img src="resources/jenkins_ldap_job_auth.png"/>
 
 <span style="color:red">值得注意的是“ Block inheritance of global authorization matrix”一定要勾选。</span>
 
@@ -109,7 +109,7 @@ OK，这样以后你就可以使用LDAP的用户登录了。接下来问题来�
 
 ### 配置连接 ###
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/nexus_ldap_connect.png"/>
+<img src="resources/nexus_ldap_connect.png"/>
 
 点击“ Verify connection”如果连接成功则在屏幕的右上角弹出一个绿色的提示。
 
@@ -117,13 +117,13 @@ OK，这样以后你就可以使用LDAP的用户登录了。接下来问题来�
 
 如下图显示：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/nexus_ldap_user.png"/>
+<img src="resources/nexus_ldap_user.png"/>
 
 ### 配置角色 ###
 
 如下图所示：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/nexus_ldap_role.png"/>
+<img src="resources/nexus_ldap_role.png"/>
 
 至此，CI需要的基本上就搭建OK了。剩下的Sonar和Jira等下次再搭建。
 

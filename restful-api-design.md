@@ -1,6 +1,6 @@
 # RESTful API规范 #
 
-RESTful API已经非常成熟，也得到了大家的认可。规范按照Richardson Maturity Mode对REST评价的模型，规范基于level2来设计。
+RESTful API已经非常成熟，也得到了大家的认可。规范按照[Richardson Maturity Mode](https://martinfowler.com/articles/richardsonMaturityModel.html)对REST评价的模型，规范基于level2来设计。
 
 ## 资源 ##
 

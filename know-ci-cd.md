@@ -4,7 +4,7 @@
 
 我们先来看个图：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/dev-phase.png">
+<img src="resources/dev-phase.png">
 
 在图中，我们把整个软件开发分为：编码、构建、集成、测试、交付和部署这几个阶段。而持续集成、持续交付和持续部署对应的是整个过程的不同的阶段。
 
@@ -12,7 +12,7 @@
 
 持续集成（Continuous Integration）指的是开发人员频繁地（一天多次）先主干提交代码，然后能够立刻自动进行构建、单元测试、集成测试，以便能更快地发现代码中的错误。“持续集成”源自于极限编程（XP），是 XP 最初的 12 种实践之一。
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/ci-flow.png">（[图片来源](http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)）
+<img src="resources/ci-flow.png">（[图片来源](http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)）
 
 如上图所示：当开发人员提交代码以后，CI服务器自动从代码库中拉取代码，自动进行编译、测试（单元测试，集成测试），并将结果反馈给开发人员。
 
@@ -27,7 +27,7 @@
 
 持续交付（Continuous Delivery）在持续集成的基础上，将集成后的代码部署到更贴近真实运行环境的「类生产环境」（production-like environments）中。是频繁地将软件的新版本，交付给质量团队或者用户，以供评审。如果评审通过，代码就可以手动部署到生产环境。它强调的是，不管怎么更新，软件是随时随地可以交付的。
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/cd-m-flow.png">（[图片来源](http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)）
+<img src="resources/cd-m-flow.png">（[图片来源](http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)）
 
 上图的TEST和STAGING可以理解为在模拟环境（预生产环境）进行更多的测试。
 
@@ -41,7 +41,7 @@
 
 持续部署（Continuous Deployment）是持续交付的下一步，指的是代码通过评审以后，自动部署到生产环境。这意味着，所有通过了一系列的自动化测试的改动都将自动部署到生产环境。它也可以被称为“Continuous Release”。持续部署的目标是，代码在任何时刻都是可部署的，可以进入生产阶段。
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/cd-a-flow.png">（[图片来源](http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)）
+<img src="resources/cd-a-flow.png">（[图片来源](http://www.mindtheproduct.com/2016/02/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)）
 
 持续交付和持续部署的差别就是手动或者自动部署到生产环境。
 

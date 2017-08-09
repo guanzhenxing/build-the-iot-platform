@@ -157,7 +157,7 @@ application.yml配置文件
 
 ## 配置中心的架构图 ##
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/springcloudconfigbus.jpg"/>
+<img src="resources/springcloudconfigbus.jpg"/>
 
 ## 关于高可用 ##
 

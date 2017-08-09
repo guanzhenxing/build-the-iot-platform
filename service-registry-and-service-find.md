@@ -70,4 +70,4 @@ Eureka既提供了服务端也提供了客户端，我们可以通过引用`spri
 
 所以，我们可以得到以下的结构图：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/eureka-arth.png">
+<img src="resources/eureka-arth.png">
