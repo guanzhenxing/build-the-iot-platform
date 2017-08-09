@@ -10,7 +10,7 @@
 
 如下图配置LDAP：
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/jenkins_ldap_conf.png"/>
+<img src="/master/resources/jenkins_ldap_conf.png"/>
 
 配置详解：
 
