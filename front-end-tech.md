@@ -11,12 +11,18 @@
 
 - [css-tricks](https://css-tricks.com/)
 - [devdocs](http://devdocs.io/)
+- [阮一峰的博客](http://www.ruanyifeng.com/blog/archives.html)
+- [小胡子哥](http://www.barretlee.com))
 
 微信公众号：
 
 - 前端外刊评论（FrontendMagazine）
 - 奇舞周刊
 - 前端之巅（frontshow）
+
+资源：
+
+- [前端资源教程 i5ting](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
 
 ## ReactJs & Redux ##
 
@@ -41,6 +47,8 @@
 - [☆JavaScript教程](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 - [☆JavaScript秘密花园](https://bonsaiden.github.io/JavaScript-Garden/zh/)
 - [☆☆ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+- [You Don't Need jQuery](https://github.com/oneuijs/You-Dont-Need-jQuery/blob/master/README.zh-CN.md)
+- [JavaScript 设计模式 系列 AlloyTeam](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 
 推荐书单：
 
@@ -48,6 +56,12 @@
 - [《JavaScript高级程序设计（第3版）》](http://www.ituring.com.cn/book/946)
 - [深入浅出ES6](http://www.infoq.com/cn/minibooks/ES6-in-Depth?)
 - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/)
+- [30分钟掌握ES6/ES2015核心内容（上）](https://segmentfault.com/a/1190000004365693)
+- [30分钟掌握ES6/ES2015核心内容（下）](https://segmentfault.com/a/1190000004368132)
+
+扩展：
+
+- [EcmaScript6 全规范（含node）](https://github.com/ouvens/es6-code-style-guide)
 
 ### Node.js ###
 
@@ -81,3 +95,32 @@ HTTP:
 正则表达式：
 
 -[30分钟入门正则表达式](http://deerchao.net/tutorials/regex/regex.htm)
+
+## 工具 ##
+
+调试工具：
+
+- [Chrome DevTools官方文档](https://developers.google.com/web/tools/chrome-devtools/)
+
+ES6 转译器：
+
+- [Babel](https://babeljs.io/)
+- [简单使用babel](http://webfuse.cn/2016/08/11/%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8babel/)
+- [Babel 入门教程](http://www.ruanyifeng.com/blog/2016/01/babel.html)
+
+CSS 预处理器：
+
+- [Sass基础教程](https://www.w3cplus.com/sassguide/)
+- [Sass指南](https://sass-guidelin.es/zh/#sass)
+
+CSS 后处理器：
+
+- [w3cplus的postcss教程](https://www.w3cplus.com/blog/tags/516.html)
+
+前端打包工具：
+
+webpack:
+
+- [webpack-官方入门指南](https://webpack.js.org/guides/)
+- [Webpack 中文指南 -赵达](https://zhaoda.gitbooks.io/webpack/content/)
+- [Webpack傻瓜式指南](https://vikingmute.gitbooks.io/webpack-for-fools/content/)
