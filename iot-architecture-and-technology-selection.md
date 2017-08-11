@@ -2,7 +2,7 @@
 
 ## IOT平台架构 ##
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/iot-architecture.png"/>
+<img src="resources/iot-architecture.png"/>
 
 ## 技术选型与工具 ##
 

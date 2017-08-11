@@ -78,7 +78,7 @@
 
 ## 微服务架构图 ##
 
-<img src="https://raw.githubusercontent.com/guanzhenxing/build-the-iot-platform/master/resources/microservice-architecture.png"/>
+<img src="resources/microservice-architecture.png"/>
 
 ## 微服务的本质 ##
 
