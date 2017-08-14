@@ -28,6 +28,7 @@
 - API网关服务
 - [配置中心](spring-cloud-config.md)
 - [RESTful API规范](restful-api-design.md)
+- [服务描述文件](service-describe.md)
 
 ## 前端 ##
 
