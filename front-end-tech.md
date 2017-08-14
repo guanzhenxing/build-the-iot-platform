@@ -12,7 +12,7 @@
 - [css-tricks](https://css-tricks.com/)
 - [devdocs](http://devdocs.io/)
 - [阮一峰的博客](http://www.ruanyifeng.com/blog/archives.html)
-- [小胡子哥](http://www.barretlee.com))
+- [小胡子哥](http://www.barretlee.com)
 
 微信公众号：
 
