@@ -33,6 +33,7 @@
 - [☆React组件生命周期过程说明](http://react-china.org/t/react/1740)
 - [☆Redux 中文文档](http://cn.redux.js.org/)
 - [☆浅谈redux基本概念](https://segmentfault.com/a/1190000007493592)
+- [☆浅尝初试 React 技术栈](https://segmentfault.com/a/1190000010641959)
 
 - [React技术栈一览](https://segmentfault.com/a/1190000009879742)
 - [React.js2016年最佳实践](http://www.alloyteam.com/2016/01/reactjs-best-practices-for-2016/)
